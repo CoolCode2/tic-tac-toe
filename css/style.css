@@ -1,0 +1,32 @@
+main{
+margin: 0 auto;
+max-width: 800px;
+}
+h1{
+text-align: center;
+}
+table{
+
+margin: 0 auto;
+border: 10px black solid;
+font-size: 80px;
+width:500px;
+height:500px;
+border-collapse: collapse;
+text-align: center;
+}
+table, th, td{
+border: 5px solid black;
+}
+.X{
+background-size: contain;
+background-image: url(https://cdn.pixabay.com/photo/2012/04/12/20/12/x-30465_1280.png);
+}
+.O{
+background-size: contain;
+background-image: url(http://kingofwallpapers.com/o/o-003.jpg);
+}
+
+td:hover{
+background-color: rgba(66, 244, 200,.1);
+}
